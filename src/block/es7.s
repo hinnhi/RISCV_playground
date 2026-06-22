@@ -7,6 +7,8 @@ _start:
 	
 else:
 	sd a3,0(t0)
+
+fineIf:
 	
 #uint64_t v
 #
