@@ -11,6 +11,6 @@ _start:
 	
 
 ;translation into c language:
-#
-#	v[0] = ( v[1] + v[2])/2;
-#
+;
+;	v[0] = ( v[1] + v[2])/2;
+;
