@@ -9,9 +9,8 @@ _start:
 	arli a5,a5,1
 	sd a5,0(a4)
 	
-/*
-translation into c language:
 
-	v[0] = ( v[1] + v[2])/2;
-	
-*/
+#translation into c language:
+#
+#	v[0] = ( v[1] + v[2])/2;
+#
