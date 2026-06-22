@@ -1,7 +1,7 @@
 .global _start
 _start:
 
-	#uit64_t x[3] = {1, 2, 3};
+	#uint64_t x[3] = {1, 2, 3};
 	
 	la a5,x
 	ld a4,16(a5)
