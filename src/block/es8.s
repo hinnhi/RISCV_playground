@@ -13,10 +13,8 @@ _start:
 	mv a1,a5
 	
 .L2:
-	
-	
-#uint64_t v
-#
+
+
 #int main(){
 #	/* ... */
 #	if(a >= (b + c)) {
