@@ -6,7 +6,7 @@ _start:
 	ld a5,8(a4)
 	ld a3,16(a4)
 	add a5,a5,a3
-	arli a5,a5,1
+	srli a5,a5,1
 	sd a5,0(a4)
 	
 
