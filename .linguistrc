@@ -1,0 +1,14 @@
+---
+- name: Assembly
+  aliases:
+    - asm
+    - s
+  patterns:
+    - '*.s'
+    - '*.asm'
+  tm_scope: source.asm
+  ace_mode: assembly_x86
+  codemirror_mode: null
+  codemirror_mime_type: null
+  display: true
+  color: "#6E4C5C"
