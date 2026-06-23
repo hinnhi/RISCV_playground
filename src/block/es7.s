@@ -9,3 +9,17 @@ else:
 	sd a3,0(t0)
 
 fineIf:
+
+# solution:
+#
+# uint64_t v;
+#
+# int main(){
+# 	/*...*/
+#	if(a > 0){
+# 		v = b;
+# 	} else {
+# 		v = c;
+#	}
+#	/*...*/
+# }
