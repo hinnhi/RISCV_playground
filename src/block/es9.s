@@ -19,13 +19,3 @@ _start:
 	li a3,0
 
 .L5:
-
-#int main(){
-#	/* ... */
-#	switch(a) {
-#		case 0: c++; break;
-#		case 1: c=b; break;
-#		default: c=0;
-#	}
-#	/* ... */
-#}
