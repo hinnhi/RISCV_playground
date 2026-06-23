@@ -20,8 +20,10 @@ _start:
 	srli a2,a2,3
 
 # solution:
+#
 # a = 0;
 # i = 0;
+#
 # while(i <= 7){
 # 	a = a + v[i];
 #   i++;
