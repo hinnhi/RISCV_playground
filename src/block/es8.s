@@ -13,3 +13,9 @@ _start:
 	mv a1,a5
 	
 .L2:
+
+# solution:
+#
+# if(a >= (b + c)){
+# 	a = a + c;
+# }
