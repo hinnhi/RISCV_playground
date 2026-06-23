@@ -14,3 +14,9 @@ _start:
 	mv a4,a5
 	la a5,x
 	sd a4,16(a5)
+
+# uint64_t x[3] = {1, 2, 3};
+
+# solution:
+#
+# x = {1, 2, 2};
