@@ -1,4 +1,5 @@
 # https://oeis.org/A000108
+
 # given:
 #
 # /* To convert (a / b) use: __udivdi3(a,b) && assume binamial function already exist;
