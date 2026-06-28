@@ -14,7 +14,7 @@
 
 # Stack frame information for function 'f':
 # - register a0 contains n (size: 8 bytes)
-# - local reg ra at stack offset: 0
+# - saved reg ra at stack offset: 0
 
 # function prologue
 	.text
