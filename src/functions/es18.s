@@ -1,0 +1,49 @@
+# given:
+#
+# /* To convert (a % b) use: __umoddi3(x,y); */
+#
+# #include <stdint.h>
+# #include <stdio.h>
+#
+# int f(register uint64_t a, register uint64_t b){ 
+#	if(b == 0)
+#		return a;
+#	else
+#		return f(b, a%b);
+# }
+
+
+# Stack frame information for function 'f':
+# - register a0 contains a (size: 8 bytes)
+# - register a1 contains b (size: 8 bytes)
+# - saved reg ra at stack offset: 8
+# - saved reg s0 at stack offset: 0
+
+# function prologue
+	.text
+	.global f
+	
+f:
+	addi sp,sp,-16
+	sd ra,8(sp)
+	sd s0,0(sp)
+	
+# function body
+	mv s0,a1
+	bnez s0,Else
+
+Then:
+	j fEPI
+	
+ELse:
+	call __umoddi3
+	mv a1,s0
+	mv a0,s0
+	call f
+
+# function epilogue
+fEPI:
+	ld ra,8(sp)
+	ld s0,0(sp)
+	addi sp,sp,16
+	ret	
