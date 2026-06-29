@@ -1,4 +1,7 @@
-# Extra project done during the year:
+# Extra project done during the year
+- conway's game of life
+- number parser
+- bubble sort
 
 
 ## Compiler used: 
